@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>KWH Parts</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="index.html"
+          ><img src="img/logo-removebg-preview.png" alt="logo" width="80"
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="acerca-de.html">Acerca de</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="solicitud.html">Solicitud</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Tienda</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="index.html"
+                    >Todos los Productos</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="productos-populares.html"
+                    >Producto populares</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="novedades.html">Novedades</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <a href="carro.html" class="btn btn-outline-dark me-2">
+              <i class="bi-cart-fill me-1"></i>
+              Carro
+              <span class="badge bg-dark text-white ms-1 rounded-pill">2</span>
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Header-->
+    <header class="bg-dark py-2">
+      <div class="container px-4 px-lg-5 my-2">
+        <div class="text-center text-white">
+          <h1 class="display-4 fw-bolder">KWH Parts</h1>
+          <p class="lead fw-normal text-white-50 mb-0">
+            Kawasaki - Motocicleta - NINJA
+          </p>
+          <img src="img/logo-removebg-preview.png" alt="logo" width="30%" />
+        </div>
+      </div>
+    </header>
+
+    <section class="py-5">
+      <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5">
+          <form  class="needs-validation" novalidate>
+            <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                <div class="d-flex justify-content-center my-4">
+                    <h2 style="margin: auto;">Solicitud de Cotización</h2>
+                </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <label for="validationCustom04" class="form-label fw-bold"
+                    >Marca</label
+                  >
+                  <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Seleccione...</option>
+                    <option>Honda</option>
+                    <option>Yamaha</option>
+                    <option>Suzuki</option>
+                    <option>Harley-Davidson</option>
+                    <option>KTM</option>
+                  </select>
+                  <div class="invalid-feedback">Obligatorio</div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom04" class="form-label fw-bold"
+                    >Año</label
+                  >
+                  <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Seleccione...</option>
+                    <option>2021</option>
+                    <option>2020</option>
+                    <option>2019</option>
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2016</option>
+                    <option>2015</option>
+                    <option>2014</option>
+                    <option>2013</option>
+                    <option>2012</option>
+                    <option>2011</option>
+                    <option>2010</option>
+                    <option>2009</option>
+                    <option>2008</option>
+                    <option>2007</option>
+                    <option>2006</option>
+                  </select>
+                  <div class="invalid-feedback">Obligatorio</div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label fw-bold"
+                    >Foto (Opcional)</label
+                  >
+                  <input
+                    type="file"
+                    class="form-control"
+                    id="validationCustom01"
+                    value="Mark"
+                  />
+                  <div class="valid-feedback">¡Se ve bien!</div>
+                </div>
+                <div class="col-md-12 my-3">
+                  <label for="validationCustom03" class="form-label fw-bold"
+                    >Modelo y Cilindraje (p.ej. GSXR750, ZX7, CBR100,
+                    etc.):</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationCustom03"
+                    required
+                  />
+                  <div class="invalid-feedback">Obligatorio</div>
+                </div>
+                <div class="col-md-12">
+                  <label for="validationCustom03" class="form-label fw-bold"
+                    >Número de chasis (Opcional)
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationCustom03"
+                  />
+                     <div class="valid-feedback">¡Se ve bien!</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label fw-bold"
+                    >Nombre
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationCustom03"
+                    required
+                  />
+                  <div class="invalid-feedback">Obligatorio</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label fw-bold"
+                    >Telefono
+                  </label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="validationCustom03"
+                    required
+                  />
+                  <div class="invalid-feedback">Obligatorio</div>
+                </div>
+                <!-- Submit -->
+                <div class="col-md-12 my-3">
+                  <button class="btn w-100" type="submit" style="background-color: #f2c03b;">
+                    Enviar
+                  </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+      <div class="row text-light d-flex justify-content-center">
+        <div class="col-md-3">
+          <h3>
+            <a href="#" class="text-light" style="text-decoration: none"
+              >Venta en Línea</a
+            >
+          </h3>
+          <p class="font-weight-bold my-2">Dirección</p>
+          <p>Av. Quito - Ecuador</p>
+        </div>
+        <div class="col-md-3">
+          <h3>Accesorios para tu moto</h3>
+          <p class="">BMW HONDA</p>
+          <p class="">DUCATI SUZUKI</p>
+          <p class="">KAWASAKI TRIUMPH</p>
+          <p class="">KTM YAMAHA</p>
+        </div>
+        <div class="col-md-3">
+          <h3>Accesorios para ti</h3>
+          <p class="">Cascos NOLAN MTHelmets</p>
+          <p class="">Ropa iXS</p>
+          <p class="">Ropa KLIM</p>
+        </div>
+      </div>
+
+      <div class="row text-light d-flex justify-content-center">
+        <div class="col-md-3">
+          <div class="d-flex justify-content-center">
+            <a href="#" class="text-light mx-3"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="#" class="text-light mx-3"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="#" class="text-light mx-3"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <p class="m-0 text-center text-white">KWH Parts</p>
+      </div>
+    </footer>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+        "use strict";
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll(".needs-validation");
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms).forEach(function (form) {
+          form.addEventListener(
+            "submit",
+            function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+
+              form.classList.add("was-validated");
+            },
+            false
+          );
+        });
+      })();
+    </script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
